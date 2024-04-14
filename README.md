@@ -13,7 +13,7 @@ not made by me.
 # How to compile / build the exe
 1. pip install pyinstaller
 2. pyinstaller main.py --onefile
-3. You might have to include the tls_client dll, to do so find ur lib path and change " --add-binary '{path_to_library}/tls_client/dependencies/tls-client-64.dll;tls_client/dependencies' " as needed.\
+3. You might have to include the tls_client dll, to do so find ur lib path and change " --add-binary '{path_to_library}/tls_client/dependencies/tls-client-64.dll;tls_client/dependencies' " as needed.
 4. if you are using the tls_client dll, it would look like this: pyinstaller main.py --onefile --add-binary (path to the lib / dll)
 
 # YOU NEED A CAPMONSTER CREDITS AND NITRO TOKENS!
